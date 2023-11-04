@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping.web</title>
+    <!---------------------css file for icons--------------->
+    <link rel="stylesheet" href="icons/all.min.css">
+    <link rel="stylesheet" href="icons/fontawesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!----------------------- google fonts style sheet-------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!--*******************************Owl-Carousel************************************-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-----------------------link main css file------------------------------>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!--------------------------Header or Navbar section------------------------------------->
+    <header>
+        <div id="header">
+            <div class="nav-logo">
+                <a href="#"><img src="image/logo.png" class="logo" alt="logo"></a>
+            </div>
+
+            <div class="nav-container">
+                <ul class="nav-menu" id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html" class="active">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <a href="#" id="close" class="cart-X"><i class="fas fa-times"></i></a>
+                </ul>
+            </div>
+
+            <div class="nav-icon">
+                <li><a href="cart.html" class="cart-Y"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <i id="menu-bar" class="fas fa-outdent"></i>
+            </div>
+        </div>
+    </header>
+    <!-----------------------------Product Single Image Section ----------------------------------->
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="image/products/f1.jpg" width="100%" id="MainImg" alt="product-image">
+            <div class="small-img-group">
+                <div class="small-image-column">
+                    <img src="image/products/f5.jpg" width="100%" class="small-img" alt="img1">
+                </div>
+                <div class="small-image-column">
+                    <img src="image/products/f2.jpg" width="100%" class="small-img" alt="img1">
+                </div>
+                <div class="small-image-column">
+                    <img src="image/products/f3.jpg" width="100%" class="small-img" alt="img1">
+                </div>
+                <div class="small-image-column">
+                    <img src="image/products/f1.jpg" width="100%" class="small-img" alt="img1">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h6>Home / T-Shirt</h6>
+            <h4>Men's fashion T-shirt</h4>
+            <h2>$129.00</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>L</option>
+                <option>M</option>
+                <option>S</option>
+            </select>
+            <input type="number" value="1">
+            <button class="btn">Add to Cart</button>
+            <h4>Product Details</h4>
+            <span>The Gildan Ultra Cotton T-Shirt is made from a substantial 6.0 oz.per sq. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Fugiat minus nisi non deleniti eveniet assumenda quam esse iure enim. Sunt
+                commodi, laudantium earum voluptas rem ipsa totam nostrum ratione magnam.</span>
+        </div>
+    </section>
+    <!----------------------------Featured product section-------------------------------------->
+    <section class="product section-p1">
+        <h2>Featured Product</h2>
+        <p>Summer Collection New Morden Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="image/products/n1.jpg" alt="">
+                <div class="description">
+                    <span>PUMA</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="price">
+                        <h4>$40</h4>
+                        <a href="#" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="image/products/n2.jpg" alt="">
+                <div class="description">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">
+                        <h4>$40</h4>
+                        <a href="#" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="image/products/n3.jpg" alt="">
+                <div class="description">
+                    <span>PUMA</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="price">
+                        <h4>$40</h4>
+                        <a href="#" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="image/products/n4.jpg" alt="">
+                <div class="description">
+                    <span>PUMA</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">
+                        <h4>$40</h4>
+                        <a href="#" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!---------------------------------Newsletter Section--------------------------->
+    <section class="newsletter section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign-Up For Newsletters</h4>
+            <p>Get E-mal updates about our latest shop and <span>specila offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="your e-mail address">
+            <button class="btn">Sign-Up</button>
+        </div>
+    </section>
+    <!---------------------------------Footer Section------------------------------>
+    <footer class="footer section-p1">
+        <div class="col">
+            <img class="logo" src="image/logo.png" alt="logo">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Fransisco</p>
+            <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivary Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View cart</a>
+            <a href="#">My Whshlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="image/play/app.jpg" alt="aplle store">
+                <img src="image/play/play.jpg" alt="aplle store">
+            </div>
+            <p>Secure Payment Gateways</p>
+            <img src="image/play/pay.png" alt="payment options">
+        </div>
+
+        <div class="copyright">
+            <p>&#9400; 2023, M.series - HTML CSS Ecommerce Template </p>
+        </div>
+
+    </footer>
+
+    <script>
+        var MainImg = document.getElementById('MainImg');
+        var smallimg = document.getElementsByClassName('small-img');
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src
+        }
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src
+        }
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src
+        }
+    </script>
+    <!-----------------Scroll Top---------------------->
+    <!-------------------------- Owl carousel Section------------------------------------>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!----------------------------link main js file-------------------------------->
+    <script src="js/web.js"></script>
+
+</body>
+
+</html>
